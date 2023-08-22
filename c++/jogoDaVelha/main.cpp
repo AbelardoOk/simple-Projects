@@ -85,10 +85,9 @@ int main() {
     
     cout << tabela[0] + " | " << tabela[1] + " | " << tabela[2] << "\n" << tabela[3] + " | " << tabela[4] + " | " << tabela[5] << "\n" << tabela[6] + " | " << tabela[7] + " | " << tabela[8] << "\n";
 
-    verificar();
     jogar();
     jogarPc();
-
+    verificar();
   }
 
   if(status == 1) {
